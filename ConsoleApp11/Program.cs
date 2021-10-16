@@ -6,8 +6,25 @@ namespace ConsoleApp11
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
+            if (true)
+            {
+                if (true)
+                {
+                    if (true)
+                    {
+                        if (true)
+                        {
+                            if (true)
+                            {
+                                if (true)
+                                {
+                                    Console.WriteLine("Hello World!");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
