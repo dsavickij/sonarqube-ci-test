@@ -18,7 +18,10 @@ namespace ConsoleApp11
                             {
                                 if (true)
                                 {
-                                    Console.WriteLine("Hello World!");
+                                    if (true)
+                                    {
+                                        Console.WriteLine("Hello World!");
+                                    }
                                 }
                             }
                         }
