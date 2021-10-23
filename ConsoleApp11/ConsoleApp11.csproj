@@ -16,12 +16,12 @@
     </PackageReference>
   </ItemGroup>
 
-	<!--<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
 		<CodeAnalysisRuleSet>..\ConsoleApp11.ruleset</CodeAnalysisRuleSet>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<CodeAnalysisRuleSet>..\ConsoleApp11.ruleset</CodeAnalysisRuleSet>
-	</PropertyGroup>-->
+	</PropertyGroup>
 
 </Project>
