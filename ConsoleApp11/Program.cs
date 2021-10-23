@@ -10,6 +10,30 @@ namespace ConsoleApp11
         {
             var printer = new WordPrinter();
             printer.Print("my test");
+
+            if (true)
+            {
+                if (true)
+                {
+                    if (true)
+                    {
+                        if (true)
+                        {
+                            if (true)
+                            {
+                                if (true)
+                                {
+                                    if (true)
+                                    {
+                                        Console.WriteLine("");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
+
