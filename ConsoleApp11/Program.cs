@@ -6,19 +6,8 @@ namespace ConsoleApp11
     {
         public static void Main(string[] args)
         {
-            if (true)
-            {
-                if (true)
-                {
-                    if (true)
-                    {
-                        if (true)
-                        {
-                            Console.WriteLine("Hello World!");
-                        }
-                    }
-                }
-            }
+            var printer = new WordPrinter();
+            printer.Print("my test");
         }
     }
 }
