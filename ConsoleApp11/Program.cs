@@ -1,24 +1,15 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ConsoleApp11
 {
+    [ExcludeFromCodeCoverage]
     internal static class Program
     {
         public static void Main(string[] args)
         {
-            if (true)
-            {
-                if (true)
-                {
-                    if (true)
-                    {
-                        if (true)
-                        {
-                            Console.WriteLine("Hello World!");
-                        }
-                    }
-                }
-            }
+            var printer = new WordPrinter();
+            printer.Print("my test");
         }
     }
 }
